@@ -1,0 +1,32 @@
+{
+  "name": "uptime-robo",
+  "version": "1.0.0",
+  "description": "An package to auto ping your websites.",
+  "main": "src/index.js",
+  "typings": "source/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KartikeSingh/uptime-robo.git"
+  },
+  "keywords": [
+    "uptime",
+    "robot",
+    "auto",
+    "ping"
+  ],
+  "author": "Shisui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KartikeSingh/uptime-robo/issues"
+  },
+  "homepage": "https://github.com/KartikeSingh/uptime-robo#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "quick.db": "^7.1.3"
+  }
+}
